@@ -1,0 +1,10 @@
+.face {
+    display: block;
+    text-align: -webkit-center;
+}
+
+.bor {
+    border-radius: 0.55em;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
+}
