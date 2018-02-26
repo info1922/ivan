@@ -8,3 +8,11 @@
     -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
 }
+
+.text-muted {
+    font-weight: 600;
+}
+
+.card-sub {
+    margin-bottom: -15px;
+}
