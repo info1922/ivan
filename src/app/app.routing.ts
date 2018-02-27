@@ -12,7 +12,7 @@ import { InterestsComponent } from './components/interests/interests.component';
 
 
 const ROUTES: Routes = [
-    { path: ' ', component: HolaComponent },
+    { path: '', component: HolaComponent },
     { path: 'hola', component: HolaComponent },
     { path: 'skills', component: SkillsComponent },
     { path: 'tools', component: ToolsComponent},
