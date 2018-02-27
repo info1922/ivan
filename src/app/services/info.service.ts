@@ -10,7 +10,7 @@ export class InfoService {
 
   constructor(public http: Http) {
 
-    this.http.get('ivancv/assets/data.json')
+    this.http.get('ivan/assets/data.json')
             .subscribe(data => {
               this.cargada = true;
               this.informacion = data.json();
