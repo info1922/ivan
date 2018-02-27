@@ -12,7 +12,6 @@ export class InfoService {
 
     this.http.get('assets/data.json')
             .subscribe(data => {
-              console.log(data.json());
               this.cargada = true;
               this.informacion = data.json();
             });
